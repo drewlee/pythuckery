@@ -1,0 +1,25 @@
+{
+    "editor.tabSize": 4,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+    },
+    "black-formatter.importStrategy": "fromEnvironment",
+    "flake8.importStrategy": "fromEnvironment",
+    "pylint.importStrategy": "fromEnvironment",
+    "cSpell.ignorePaths": [
+        "vscode-extension",
+        ".git/{info,lfs,logs,refs,objects}/**",
+        ".git/{index,*refs,*HEAD}",
+        ".vscode",
+        ".gitignore"
+  ],
+    "cSpell.words": [
+        "dijkstras",
+        "pythuckery",
+        "sbstr",
+        "tmpl"
+    ]
+}
