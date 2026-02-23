@@ -1,2 +1,2 @@
 [tool.pylint]
-disable = "missing-function-docstring, missing-module-docstring, too-many-lines"
+disable = "missing-class-docstring, missing-function-docstring, missing-module-docstring, too-many-lines"
